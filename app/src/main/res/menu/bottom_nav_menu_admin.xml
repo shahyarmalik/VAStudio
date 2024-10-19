@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeAdmin"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/baseline_message_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Exhibition" />
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/baseline_search_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Feedback" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Profile" />
+</menu>

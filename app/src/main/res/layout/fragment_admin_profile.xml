@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFragments.AdminProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/admin_hello"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Admin Profile "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/admin_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Name of Admin : Shaharyar"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/admin_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Email of Admin : sharyar@gmail.com"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/admin_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Age of Admin: 25"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/admin_cell"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="CellNo of Admin: 0313123456723"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/admin_roll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Role : Admin"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/admin_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Gender of Admin: male"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/admin_userName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="UserName of Visitor: shahryar23"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/admin_logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:onClick="onLogoutButtonClicked"
+            android:text="Logout"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

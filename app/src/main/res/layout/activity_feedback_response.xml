@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextResponseMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your response here..."
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:inputType="textMultiLine"
+        android:minLines="5"
+        android:maxLines="10"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:id="@+id/buttonAttachFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attach File"
+        android:layout_below="@id/editTextResponseMessage"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSendResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Response"
+        android:layout_below="@id/buttonAttachFile"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.BidArtworkActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewArtworkTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artwork Title"
+            android:layout_margin="16dp"/>
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonPlaceBid"
+            android:src="@drawable/brush" />
+
+        <EditText
+            android:id="@+id/editTextBidAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Bid Amount"
+            android:layout_below="@id/textViewArtworkTitle"
+            android:layout_margin="16dp"/>
+
+        <Button
+            android:id="@+id/buttonPlaceBid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Bid"
+            android:layout_below="@id/editTextBidAmount"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
